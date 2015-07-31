@@ -1,0 +1,42 @@
+<h2><%= @post.title %>
+  <%= link_to "(edit)", edit_post_path(@post) %>
+</h2>
+
+<article>
+  <%= image_tag @post.photo_url, {class: "post-photo", alt: "Photo for #{@post.title}" } %>
+  <%= @post.body %>
+</article>
+
+<h3>Comments</h3>
+
+<ul>
+  <% @post.comments.each do |comment| %>
+    <li>
+      <p><%= comment.body %><br />
+      by <%= comment.author %><br />
+        <%= time_ago_in_words(comment.created_at)%></p>
+    </li>
+
+    <%= form_for([@post, comment], method: :delete) do |f| %>
+      <%= f.submit "Delete Comment", class: "delete" %>
+    <% end  %>
+
+  <% end %>
+</ul>
+
+
+<h3>Write a Comment</h3>
+<p>
+<%= form_for [@post, Comment.new] do |f| %>
+  <p>
+    <%= f.label :author, "Author" %><br />
+    <%= f.text_field :author %><br />
+    <%= f.label :body, "Comment Description" %><br />
+    <%= f.text_area :body %>
+  </p>
+
+  <p>
+    <%= f.submit "Add Comment" %>
+  </p>
+<% end %>
+</p>

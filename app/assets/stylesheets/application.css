@@ -1,0 +1,91 @@
+<<<<<<< HEAD
+* {
+  box-sizing: inherit;
+}
+body {
+  max-width: 640px;
+  margin: auto;
+  background-color: #fff8fa;
+}
+header{
+  background: #33262a;
+  padding: 20px 0px;
+  border-bottom: 3px solid #fff8fa;
+}
+header h1 {
+  margin: 0;
+  color: #fff8fa;
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+}
+nav a {
+  color: #fff8fa;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0 10px
+}
+.posts_container {
+  max-width: 640px;
+  background-color: #33262a;
+  display: block;
+  min-height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+}
+.post {
+  min-height: 200px;
+  margin-bottom: 10px;
+  width: 33.3%;
+  float: left;
+  position: relative;
+}
+.post_img_container {
+  margin: 0 auto;
+}
+.post_img {
+  width: 100%;
+}
+.post_title {
+  position: absolute;
+  bottom: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #b28593;
+}
+a {
+  text-decoration: none;
+}
+
+h2, h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bolder;
+  color: #b28593;
+}
+h2 a {
+  color: #99727e;
+}
+.post-photo {
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+}
+article, p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #33262a;
+}
+=======
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+>>>>>>> c1b8113e3bbcdae83c207bb9162b22ee6cf04c17

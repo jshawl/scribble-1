@@ -1,0 +1,13 @@
+<h2>Posts
+  <%= link_to image_tag("plus-circle.svg", size: "20" ), new_post_path %>
+</h2>
+<div class="posts_container">
+  <% @posts.each do |post| %>
+    <div class="post">
+      <%= link_to post do %>
+        <div class="post_img_container"><%= image_tag post.photo_url, class: "post_img", alt: "Photo for #{post.title}"%></div>
+        <div class="post_title"><%= post.title %></div>
+      <% end %>
+    </div>
+  <% end %>
+</div>
