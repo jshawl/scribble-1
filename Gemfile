@@ -1,10 +1,8 @@
 source 'https://rubygems.org'
 
-<<<<<<< HEAD
-gem 'bcrypt'
-=======
 
->>>>>>> c1b8113e3bbcdae83c207bb9162b22ee6cf04c17
+gem 'bcrypt'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use postgresql as the database for Active Record
@@ -46,7 +44,3 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-<<<<<<< HEAD
-=======
-
->>>>>>> c1b8113e3bbcdae83c207bb9162b22ee6cf04c17
