@@ -1,8 +1,7 @@
 # Scribble 
 
-#
 
-USER STORIES 
+##USER STORIES 
 
 - As a User I want to sign up so that I can sign in to the application. 
 - As a User I want to sign in so that I can get access to the application.
@@ -13,9 +12,7 @@ USER STORIES
 - As a User I want to Add Comment to Post so that I can leave my opinion for other users.
 
 
-#
-
-is a week-long Ruby on Rails writing application where Users can read, write, and interact
+######is a week-long Ruby on Rails writing application where Users can read, write, and interact
 with the best content all around the world.
 
 We will start off with two models: `Posts` and `Comments`, and eventually
