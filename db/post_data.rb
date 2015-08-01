@@ -23,19 +23,19 @@ def get_post_data
       author: "Elle",
       body: "The pieces and ideas you need for your most comfortable, luxurious, and personal bedroom ever. How many can you check off the list?",
       photo_url: "http://edc.h-cdn.co/assets/cm/15/04/54c1749c7492c_-_adeeni-design-interiors-eclectic-bedroom-xln.jpg",
-    },
+      },
     "whatyouneed" => {
       title: "WHAT YOU NEED TO KNOW BEFORE YOU BUY A VINTAGE RUG",
       author: "Elle",
       body: "The first thing I would ask is 'What makes this rug special, unique, and one-of-a-kind?' Beyond that, you may want to ask about the time period and what region it's from. It will require some research if you aren't familiar, but it's really the texture, the weave, the motifs, the yarn, and colors that tell you about the origin of a rug. Knowing what is common for specific time periods and places will give you more insight.",
       photo_url: "http://edc.h-cdn.co/assets/cm/15/04/980x490/54bfe29658c56_-_ed-restoration-hardware-rugs-de.jpg",
-    },
+      },
     "twentyone" => {
       title: "21 UNIQUE STYLING IDEAS FOR YOUR BOOKSHELVES",
       author: "Elle",
       body: "Expertly-decorated bookcases to inspire your next bookshelf-organizing endeavor. ",
       photo_url: "http://edc.h-cdn.co/assets/15/12/980x490/landscape-1426885502-ed0509-wemt32-127large.jpg",
+      }
     }
-  }
   return post_data
 end
