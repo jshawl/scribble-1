@@ -1,7 +1,7 @@
 # Scribble 
 
 
-##USER STORIES 
+##User Stories
 
 - As a User I want to sign up so that I can sign in to the application. 
 - As a User I want to sign in so that I can get access to the application.
