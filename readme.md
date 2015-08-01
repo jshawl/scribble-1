@@ -14,7 +14,8 @@ USER STORIES
 
 
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-is a week-long Ruby on Rails writing application where Users can read, write, and interact
+
+#is a week-long Ruby on Rails writing application where Users can read, write, and interact
 with the best content all around the world.
 
 We will start off with two models: `Posts` and `Comments`, and eventually
