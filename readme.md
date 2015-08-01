@@ -4,13 +4,13 @@
 
 USER STORIES 
 
-As a User I want to sign up so that I can sign in to the application. 
-As a User I want to sign in so that I can get access to the application.
-As a User I want to list Posts so that I can view all Posts.
-As a User I want to Add Post so that I can create new Post. 
-As a User I want to Edit Post so that I can change my Post.
-As a User I want to Destroy Post so that I can delete my Post.
-As a User I want to Add Comment to Post so that I can leave my opinion for other users.
+- As a User I want to sign up so that I can sign in to the application. 
+- As a User I want to sign in so that I can get access to the application.
+- As a User I want to list Posts so that I can view all Posts.
+- As a User I want to Add Post so that I can create new Post. 
+- As a User I want to Edit Post so that I can change my Post.
+- As a User I want to Destroy Post so that I can delete my Post.
+- As a User I want to Add Comment to Post so that I can leave my opinion for other users.
 
 
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
