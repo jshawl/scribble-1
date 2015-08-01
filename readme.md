@@ -1,7 +1,19 @@
 # Scribble 
 
-![](https://dl.dropboxusercontent.com/s/8frf8rblw6pnpds/hipsterlogogenerator_1438007087793.png?dl=0)
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
+USER STORIES 
+
+As a User I want to sign up so that I can sign in to the application. 
+As a User I want to sign in so that I can get access to the application.
+As a User I want to list Posts so that I can view all Posts.
+As a User I want to Add Post so that I can create new Post. 
+As a User I want to Edit Post so that I can change my Post.
+As a User I want to Destroy Post so that I can delete my Post.
+As a User I want to Add Comment to Post so that I can leave my opinion for other users.
+
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 is a week-long Ruby on Rails writing application where Users can read, write, and interact
 with the best content all around the world.
 
