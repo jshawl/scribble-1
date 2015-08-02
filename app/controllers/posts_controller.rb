@@ -10,6 +10,8 @@ class PostsController <ApplicationController
 
   def create
     @post = Post.create!(post_params)
+    # or Post.create!(post_params.merge(author: session[:user]))
+    # and remove author from your strong params
 
     redirect_to post_path(@post)
   end
@@ -24,6 +26,7 @@ class PostsController <ApplicationController
 
   def update
     @post = Post.find(params[:id])
+    # you can use a before action to dry up repetitive code
     @post.update(post_params)
 
     redirect_to post_path(@post)

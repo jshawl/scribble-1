@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root to: 'users#sign_up'
+  # or root to posts and redirect to sign up if not logged in.
 
   resources :posts do
     resources :comments

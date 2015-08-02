@@ -1,5 +1,6 @@
 require_relative './comment_data.rb'
 require_relative './post_data.rb'
+# excellent seed data!!
 
 Comment.destroy_all
 Post.destroy_all
